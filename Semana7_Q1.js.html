@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+	<h3>Gerador de Listas</h3>
+	</head>
+	<ul id="lista">	
+	</ul>
+	<ul id="lista1">
+    </ul>
+	<ul id="lista2">
+    </ul>
+	<ul id="lista4">
+    </ul>
+	<ul id="lista5">
+    </ul>
+	<ul id="lista6">
+    </ul>
+	<ul id="lista7">
+    </ul>
+	<ul id="lista8">
+    </ul>
+	  
+	  <p>Escolha uma das opções de criação de listas abaixo, o "Create list (3)" irá criar 3 listas, já o "Create list (5) irá criar 5 listas.</p>
+	  
+	  <button onclick="Botão1()">Create list (3)</button>
+	  <button onclick="Botão2()">Create list (5)</button>
+	  <script>
+	  function Botão1() {
+		var node = document.createElement("li");
+		var textnode = document.createTextNode("<li>lista 1</li>");
+		node.appendChild(textnode);
+		document.getElementById("lista").appendChild(node);
+
+		var node2 = document.createElement("li2");
+		var textnode2 = document.createTextNode("<li>lista 2</li>");
+		node2.appendChild(textnode2);
+		document.getElementById("lista2").appendChild(node2);
+		
+		var node3 = document.createElement("li3");
+		var textnode3 = document.createTextNode("<li>lista 3</li>");
+		node3.appendChild(textnode3);
+		document.getElementById("lista8").appendChild(node3);
+	  }
+
+	  function Botão2() {
+		var node1 = document.createElement("li1");
+		var textnode1 = document.createTextNode("<li>lista 1</li>");
+		node1.appendChild(textnode1);
+		document.getElementById("lista1").appendChild(node1);
+
+		var node4 = document.createElement("li4");
+		var textnode4 = document.createTextNode("<li>lista 2</li>");
+		node4.appendChild(textnode4);
+		document.getElementById("lista4").appendChild(node4);
+		
+		var node5 = document.createElement("li5");
+		var textnode5 = document.createTextNode("<li>lista 3</li>");
+		node5.appendChild(textnode5);
+		document.getElementById("lista5").appendChild(node5);
+
+		var node6 = document.createElement("li6");
+		var textnode6 = document.createTextNode("<li>lista 4</li>");
+		node6.appendChild(textnode6);
+		document.getElementById("lista6").appendChild(node6);
+
+		var node7 = document.createElement("li7");
+		var textnode7 = document.createTextNode("<li>lista 5</li>");
+		node7.appendChild(textnode7);
+		document.getElementById("lista7").appendChild(node7);
+	  }
+	  </script>
+	  </body>
+	  </html>
+	  
